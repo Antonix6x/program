@@ -25,6 +25,13 @@
                 </TransformGroup>
             </Slider.RenderTransform>
         </Slider>
+        <TextBox HorizontalAlignment="Left" Margin="422,132,0,0" TextWrapping="Wrap" Text="wielkość&#xD;&#xA;czcionki" VerticalAlignment="Top" Width="55" Height="32" Background="BlanchedAlmond"/>
+        <TextBox HorizontalAlignment="Left" Height="41" Margin="725,16,0,0" TextWrapping="Wrap" Text="kolor czcionki" VerticalAlignment="Top" Width="54" Background="BlanchedAlmond"/>
+        <RadioButton Content="czerwony" HorizontalAlignment="Left" Margin="718,71,0,0" VerticalAlignment="Top" Height="19" Width="72"   Background="red"/>
+        <RadioButton Content="źółty" HorizontalAlignment="Left" Margin="718,95,0,0" VerticalAlignment="Top" Height="19" Width="61" Background="Yellow"/>
+        <RadioButton Content="zielony" HorizontalAlignment="Left" Margin="718,120,0,0" VerticalAlignment="Top" Height="19" Width="61"  Background="green"/>
+        <RadioButton Content="niebieski" HorizontalAlignment="Left" Margin="716,148,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="blue"/>
+        <RadioButton Content="różowy" HorizontalAlignment="Left" Margin="716,183,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="pink"/>
 
     </Grid>
 </Window>
