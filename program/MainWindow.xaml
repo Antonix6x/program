@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:program"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="Azure">
+        <TextBox HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="281" Height="118" TextChanged="TextBox_TextChanged"/>
+        <CheckBox Content="Pogrubienie" HorizontalAlignment="Left" Margin="334,31,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
+        <CheckBox Content="Kursywa" HorizontalAlignment="Left" Margin="334,61,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
+        <CheckBox Content="Podkreślenie" HorizontalAlignment="Left" Margin="334,92,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
+        <Button Content="lewo" HorizontalAlignment="Left" Margin="86,144,0,0" VerticalAlignment="Top" Width="64" Background="BlanchedAlmond"/>
+        <Button Content="prawo" HorizontalAlignment="Left" Margin="166,144,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.415,2.28" Background="BlanchedAlmond"/>
+        <Button Content="justowanie" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="64" Background="BlanchedAlmond"/>
+        <Button Content="justowanie" HorizontalAlignment="Left" Margin="254,144,0,0" VerticalAlignment="Top" Width="67" Background="BlanchedAlmond"/>
 
     </Grid>
 </Window>
