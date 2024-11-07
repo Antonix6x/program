@@ -83,6 +83,10 @@ namespace program
         {
             tekst.FontStyle = FontStyles.Normal;
         }
+        private void różowy(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 
 }

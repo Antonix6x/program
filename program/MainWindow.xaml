@@ -30,11 +30,11 @@
        
         <TextBox HorizontalAlignment="Left" Margin="645,120,0,0" TextWrapping="Wrap" Text="wielkość&#xD;&#xA;czcionki" VerticalAlignment="Top" Width="55" Height="32" Background="BlanchedAlmond"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="725,16,0,0" TextWrapping="Wrap" Text="kolor czcionki" VerticalAlignment="Top" Width="54" Background="BlanchedAlmond"/>
-        <RadioButton Content="czerwony" HorizontalAlignment="Left" Margin="718,66,0,0" VerticalAlignment="Top" Height="18" Width="72"   Background="red"/>
-        <RadioButton Content="źółty" HorizontalAlignment="Left" Margin="718,85,0,0" VerticalAlignment="Top" Height="19" Width="61" Background="Yellow"/>
-        <RadioButton Content="zielony" HorizontalAlignment="Left" Margin="718,104,0,0" VerticalAlignment="Top" Height="19" Width="61"  Background="green"/>
-        <RadioButton Content="niebieski" HorizontalAlignment="Left" Margin="718,124,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="blue"/>
-        <RadioButton Content="różowy" HorizontalAlignment="Left" Margin="718,143,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="pink"/>
+        <RadioButton x:Name="czerwony" Checked="kolortekstu_Checked" Content="czerwony" HorizontalAlignment="Left" Margin="718,66,0,0" VerticalAlignment="Top" Height="18" Width="72" GroupName="kolory"  Background="red"/>
+        <RadioButton x:Name="żółty" Checked="kolortekstu_Checked" Content="żółty" HorizontalAlignment="Left" Margin="718,85,0,0" VerticalAlignment="Top" Height="19" Width="61" GroupName="kolory" Background="Yellow"/>
+        <RadioButton x:Name="zielony" Checked="kolortekstu_Checked" Content="zielony" HorizontalAlignment="Left" Margin="718,104,0,0" VerticalAlignment="Top" Height="19" Width="61"  Background="green" GroupName="kolory"/>
+        <RadioButton x:Name="niebieski" Checked="kolortekstu_Checked" Content="niebieski" HorizontalAlignment="Left" Margin="718,124,0,0" VerticalAlignment="Top" Height="19" Width="72" GroupName="kolory" Background="blue"/>
+        <RadioButton x:Name="różowy" Checked="kolortekstu_Checked" Content="różowy" HorizontalAlignment="Left" Margin="718,143,0,0" VerticalAlignment="Top" Height="19" Width="72" GroupName="kolory" Background="pink"/>
             
     </Grid>
 </Window>
