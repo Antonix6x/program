@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Azure" Margin="0,0,0,-6">
        
-            <TextBox x:Name="tekst" TextAlignment="Left" HorizontalAlignment="Left" Margin="27,18,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="488" Height="124" TextChanged="TextBox_TextChanged"/>
+            <TextBox x:Name="tekst" TextAlignment="Left" HorizontalAlignment="Left" Margin="27,18,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="488" Height="124" TextChanged="TextBox_TextChanged" Background="White" FontSize="{Binding ElementName=suwak, Path=Value}"/>
             <CheckBox x:Name="pogrubienie" Checked="pogrub_Checked" Unchecked="pogrub_Unchecked" Content="Pogrubienie" HorizontalAlignment="Left" Margin="544,25,0,0" VerticalAlignment="Top" Width="142" Background="BlanchedAlmond"/>
         <CheckBox x:Name="kursywa" Checked="kursywa_Checked" Unchecked="kursywa_Unchecked" Content="Kursywa" HorizontalAlignment="Left" Margin="544,59,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
         <CheckBox x:Name="Podkreślenie" Checked="podkreśl_Checked" Unchecked="podkreśl_Unchecked" Content="Podkreślenie" HorizontalAlignment="Left" Margin="543,89,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
@@ -17,7 +17,7 @@
                 <Button Content="justowanie" HorizontalAlignment="Left" Margin="54,165,0,0" VerticalAlignment="Top" Width="104" Background="BlanchedAlmond" Height="37" Click="AlignJustify_Click"/>
                 <Button Content="Srodek" HorizontalAlignment="Left" Margin="515,165,0,0" VerticalAlignment="Top" Width="99" Background="BlanchedAlmond" Height="37" Click="CenterText_Click"/>
           
-            <Slider HorizontalAlignment="Left" Height="20" Margin="617,57,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.5,0.5">
+            <Slider x:Name="suwak" Minimum="1" Maximum="30" Value="14" TickFrequency="2" TickPlacement="BottomRight" HorizontalAlignment="Left" Height="20" Margin="617,57,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.5,0.5"> 
                 <Slider.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

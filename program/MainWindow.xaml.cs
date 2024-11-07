@@ -95,7 +95,21 @@ namespace program
             {
                 tekst.Foreground= Brushes.Pink;
             }
+            else if (selectedRadioButton.Content.ToString()=="zielony")
+            {
+                tekst.Foreground = Brushes.Green;
+            }
+            else if(selectedRadioButton.Content.ToString()=="żółty")
+            {
+                tekst.Foreground = Brushes.Yellow;
+            }
+            else if (selectedRadioButton.Content.ToString() == "niebieski")
+            {
+                tekst.Foreground = Brushes.Blue;
+            }
+            
         }
+
         
     }
 
