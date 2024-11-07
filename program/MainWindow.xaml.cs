@@ -83,10 +83,20 @@ namespace program
         {
             tekst.FontStyle = FontStyles.Normal;
         }
-        private void różowy(object sender, RoutedEventArgs e)
+        private void kolortekstu_Checked(object sender, RoutedEventArgs e)
         {
-            
+            RadioButton selectedRadioButton = (RadioButton)sender;
+
+            if (selectedRadioButton.Content.ToString() == "czerwony")
+            {
+                tekst.Foreground = Brushes.Red;
+            }
+            else if (selectedRadioButton.Content.ToString()=="różowy")
+            {
+                tekst.Foreground= Brushes.Pink;
+            }
         }
+        
     }
 
 }
