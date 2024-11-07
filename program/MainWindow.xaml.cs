@@ -34,29 +34,54 @@ namespace program
         {
             if (tekst != null)
             {
-                tekst.TextAlignment = TextAlignment.Center;
+                tekst.TextAlignment = TextAlignment.Center;                 //wyśrodkowanie
             }
         }
         private void AlignLeft_Click(object sender, RoutedEventArgs e)
         {
             if (tekst != null)
             {
-                tekst.TextAlignment = TextAlignment.Left;
+                tekst.TextAlignment = TextAlignment.Left;                   //równanie do lewej
             }
         }
         private void AlignRight_Click(object sender, RoutedEventArgs e)
         {
             if (tekst != null)
             {
-                tekst.TextAlignment = TextAlignment.Right;
+                tekst.TextAlignment = TextAlignment.Right;                  //równanie do prawej
             }
         }
         private void AlignJustify_Click(object sender, RoutedEventArgs e)
         {
             if (tekst !=null)
             {
-                tekst.TextAlignment= TextAlignment.Left;
+                tekst.TextAlignment= TextAlignment.Justify;                 //Justowanie
             }
+        }
+        private void pogrub_Checked(object sender, RoutedEventArgs e)
+        {
+            tekst.FontWeight = FontWeights.Bold;            //pogrubienie
+        }
+        private void pogrub_Unchecked(object sender, RoutedEventArgs e)
+        {
+            tekst.FontWeight = FontWeights.Normal;  
+        }
+       
+        private void podkreśl_Checked(object sender, RoutedEventArgs e)
+        {
+            tekst.TextDecorations = TextDecorations.Underline;
+        }
+        private void podkreśl_Unchecked(object sender, RoutedEventArgs e)
+        {
+            tekst.TextDecorations = null;
+        }
+        private void kursywa_Checked(object sender, RoutedEventArgs e)
+        {
+            tekst.FontStyle = FontStyles.Italic;
+        }
+        private void kursywa_Unchecked(object sender, RoutedEventArgs e)
+        {
+            tekst.FontStyle = FontStyles.Normal;
         }
     }
 
