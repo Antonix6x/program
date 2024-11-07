@@ -27,9 +27,15 @@ namespace program
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void CenterText_Click(object sender, RoutedEventArgs e)
         {
-            
+            if (tekst != null)
+            {
+                tekst.TextAlignment = TextAlignment.Center;
+            }
         }
+
     }
+
+ 
 }
