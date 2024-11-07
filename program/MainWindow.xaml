@@ -7,15 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Azure" Margin="0,0,0,-6">
-        <TextBox HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="281" Height="118" TextChanged="TextBox_TextChanged"/>
-        <CheckBox Content="Pogrubienie" HorizontalAlignment="Left" Margin="334,31,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
-        <CheckBox Content="Kursywa" HorizontalAlignment="Left" Margin="334,61,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
-        <CheckBox Content="Podkreślenie" HorizontalAlignment="Left" Margin="334,92,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
-        <Button Content="lewo" HorizontalAlignment="Left" Margin="86,144,0,0" VerticalAlignment="Top" Width="64" Background="BlanchedAlmond"/>
-        <Button Content="prawo" HorizontalAlignment="Left" Margin="166,144,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.415,2.28" Background="BlanchedAlmond"/>
-        <Button Content="justowanie" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Width="64" Background="BlanchedAlmond"/>
-        <Button Content="justowanie" HorizontalAlignment="Left" Margin="254,144,0,0" VerticalAlignment="Top" Width="67" Background="BlanchedAlmond"/>
-        <Slider HorizontalAlignment="Left" Height="20" Margin="400,63,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.5,0.5">
+        <TextBox HorizontalAlignment="Left" Margin="27,18,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="488" Height="124" TextChanged="TextBox_TextChanged"/>
+        <CheckBox Content="Pogrubienie" HorizontalAlignment="Left" Margin="544,25,0,0" VerticalAlignment="Top" Width="142" Background="BlanchedAlmond"/>
+        <CheckBox Content="Kursywa" HorizontalAlignment="Left" Margin="544,59,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
+        <CheckBox Content="Podkreślenie" HorizontalAlignment="Left" Margin="543,89,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
+        <ToggleButton Content="lewo" HorizontalAlignment="Left" Margin="217,165,0,0" VerticalAlignment="Top" Width="94" Background="BlanchedAlmond" Height="37"/>
+        <ToggleButton Content="prawo" HorizontalAlignment="Left" Margin="380,165,0,0" VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.415,2.28" Background="BlanchedAlmond" Height="37"/>
+        <ToggleButton Content="justowanie" HorizontalAlignment="Left" Margin="54,165,0,0" VerticalAlignment="Top" Width="104" Background="BlanchedAlmond" Height="37"/>
+        <ToggleButton Content="Srodek" HorizontalAlignment="Left" Margin="515,165,0,0" VerticalAlignment="Top" Width="99" Background="BlanchedAlmond" Height="37" Click="Button_Click"/>
+        <Slider HorizontalAlignment="Left" Height="20" Margin="617,57,0,0" VerticalAlignment="Top" Width="107" RenderTransformOrigin="0.5,0.5">
             <Slider.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -25,13 +25,13 @@
                 </TransformGroup>
             </Slider.RenderTransform>
         </Slider>
-        <TextBox HorizontalAlignment="Left" Margin="422,132,0,0" TextWrapping="Wrap" Text="wielkość&#xD;&#xA;czcionki" VerticalAlignment="Top" Width="55" Height="32" Background="BlanchedAlmond"/>
+        <TextBox HorizontalAlignment="Left" Margin="645,120,0,0" TextWrapping="Wrap" Text="wielkość&#xD;&#xA;czcionki" VerticalAlignment="Top" Width="55" Height="32" Background="BlanchedAlmond"/>
         <TextBox HorizontalAlignment="Left" Height="41" Margin="725,16,0,0" TextWrapping="Wrap" Text="kolor czcionki" VerticalAlignment="Top" Width="54" Background="BlanchedAlmond"/>
-        <RadioButton Content="czerwony" HorizontalAlignment="Left" Margin="718,71,0,0" VerticalAlignment="Top" Height="19" Width="72"   Background="red"/>
-        <RadioButton Content="źółty" HorizontalAlignment="Left" Margin="718,95,0,0" VerticalAlignment="Top" Height="19" Width="61" Background="Yellow"/>
-        <RadioButton Content="zielony" HorizontalAlignment="Left" Margin="718,120,0,0" VerticalAlignment="Top" Height="19" Width="61"  Background="green"/>
-        <RadioButton Content="niebieski" HorizontalAlignment="Left" Margin="716,148,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="blue"/>
-        <RadioButton Content="różowy" HorizontalAlignment="Left" Margin="716,183,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="pink"/>
-
+        <RadioButton Content="czerwony" HorizontalAlignment="Left" Margin="718,66,0,0" VerticalAlignment="Top" Height="18" Width="72"   Background="red"/>
+        <RadioButton Content="źółty" HorizontalAlignment="Left" Margin="718,85,0,0" VerticalAlignment="Top" Height="19" Width="61" Background="Yellow"/>
+        <RadioButton Content="zielony" HorizontalAlignment="Left" Margin="718,104,0,0" VerticalAlignment="Top" Height="19" Width="61"  Background="green"/>
+        <RadioButton Content="niebieski" HorizontalAlignment="Left" Margin="718,124,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="blue"/>
+        <RadioButton Content="różowy" HorizontalAlignment="Left" Margin="718,143,0,0" VerticalAlignment="Top" Height="19" Width="72"  Background="pink"/>
+            
     </Grid>
 </Window>
