@@ -17,9 +17,12 @@ namespace program
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
             InitializeComponent();
+
+
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -34,8 +37,27 @@ namespace program
                 tekst.TextAlignment = TextAlignment.Center;
             }
         }
-
+        private void AlignLeft_Click(object sender, RoutedEventArgs e)
+        {
+            if (tekst != null)
+            {
+                tekst.TextAlignment = TextAlignment.Left;
+            }
+        }
+        private void AlignRight_Click(object sender, RoutedEventArgs e)
+        {
+            if (tekst != null)
+            {
+                tekst.TextAlignment = TextAlignment.Right;
+            }
+        }
+        private void AlignJustify_Click(object sender, RoutedEventArgs e)
+        {
+            if (tekst !=null)
+            {
+                tekst.TextAlignment= TextAlignment.Left;
+            }
+        }
     }
 
- 
 }
