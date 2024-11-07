@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="Azure" Margin="0,0,0,-6">
        
-            <TextBox x:Name="tekst" TextAlignment="Left" HorizontalAlignment="Left" Margin="27,18,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="488" Height="124" TextChanged="TextBox_TextChanged" Background="White" FontSize="{Binding ElementName=suwak, Path=Value}"/>
+            <TextBox x:Name="tekst" TextAlignment="Left" HorizontalAlignment="Left" Margin="27,18,0,0" TextWrapping="Wrap" Text="Wprowadź tekst" VerticalAlignment="Top" Width="488" Height="124" TextChanged="TextBox_TextChanged" Background="White" FontSize="{Binding ElementName=suwak, Path=Value}" SpellCheck.IsEnabled="True"/>
             <CheckBox x:Name="pogrubienie" Checked="pogrub_Checked" Unchecked="pogrub_Unchecked" Content="Pogrubienie" HorizontalAlignment="Left" Margin="544,25,0,0" VerticalAlignment="Top" Width="142" Background="BlanchedAlmond"/>
         <CheckBox x:Name="kursywa" Checked="kursywa_Checked" Unchecked="kursywa_Unchecked" Content="Kursywa" HorizontalAlignment="Left" Margin="544,59,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>
         <CheckBox x:Name="Podkreślenie" Checked="podkreśl_Checked" Unchecked="podkreśl_Unchecked" Content="Podkreślenie" HorizontalAlignment="Left" Margin="543,89,0,0" VerticalAlignment="Top" Width="143" Background="BlanchedAlmond"/>

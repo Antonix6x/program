@@ -69,7 +69,7 @@ namespace program
        
         private void podkreśl_Checked(object sender, RoutedEventArgs e)
         {
-            tekst.TextDecorations = TextDecorations.Underline;
+            tekst.TextDecorations = TextDecorations.Underline;          //podkreslenie
         }
         private void podkreśl_Unchecked(object sender, RoutedEventArgs e)
         {
@@ -77,7 +77,7 @@ namespace program
         }
         private void kursywa_Checked(object sender, RoutedEventArgs e)
         {
-            tekst.FontStyle = FontStyles.Italic;
+            tekst.FontStyle = FontStyles.Italic;            //kursywa
         }
         private void kursywa_Unchecked(object sender, RoutedEventArgs e)
         {
@@ -85,7 +85,7 @@ namespace program
         }
         private void kolortekstu_Checked(object sender, RoutedEventArgs e)
         {
-            RadioButton selectedRadioButton = (RadioButton)sender;
+            RadioButton selectedRadioButton = (RadioButton)sender;          //zastosowanie właściwości selectedRadioButton w celu umożliwienia wyboru użytkownikowi
 
             if (selectedRadioButton.Content.ToString() == "czerwony")
             {
